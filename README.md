@@ -1,24 +1,19 @@
-# README
+# Rails 5.1 with PostgreSQL database
+Code for starting rails project with PostgreSQL and Rspec
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Requirement
+* Ruby version 2.4.0
+* Rails 5.1 
+* PostgreSQL database
 
-Things you may want to cover:
+## Configuration
+* figaro (https://github.com/laserlemon/figaro)
 
-* Ruby version
+## Test suite
+* Rspec (https://github.com/rspec/rspec-rails)
+* factory_girl (https://github.com/thoughtbot/factory_girl_rails)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### How to run the test suite
+```
+$ rspec 
+```
